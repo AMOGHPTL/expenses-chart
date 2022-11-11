@@ -72,6 +72,41 @@ body{
 }
 
 
+/* top bar */
+.top-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-orange);
+    border-radius: 0.8rem;
+}
+
+
+.amount{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    color: white;
+}
+
+.amount--white{
+    color: white;
+}
+.type{
+    font-size: 1.2rem;
+}
+.money{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.logo{
+    width: 5rem;
+    margin: 1rem;
+}
+
 
 
 
