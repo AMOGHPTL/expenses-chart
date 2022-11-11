@@ -33,11 +33,12 @@ body{
     align-items: center;
     color: var(--color-secondary);
     max-width: 3.2rem;
+    margin-right: 1rem;
 }
 
 .bar{
     width: 3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
 }
 
 
@@ -50,25 +51,25 @@ body{
 
 
 .bar-mon{
-    height: 3rem;
-}
-.bar-tue{
-    height: 6rem;
-}
-.bar-wed{
-    height: 9rem;
-}
-.bar-thu{
     height: 5rem;
 }
-.bar-fri{
-    height: 4rem;
-}
-.bar-sat{
+.bar-tue{
     height: 8rem;
 }
+.bar-wed{
+    height: 12rem;
+}
+.bar-thu{
+    height: 7.5rem;
+}
+.bar-fri{
+    height: 6rem;
+}
+.bar-sat{
+    height: 10.5rem;
+}
 .bar-sun{
-    height: 4.5rem;
+    height: 7rem;
 }
 
 
@@ -138,6 +139,14 @@ body{
     color: var(--color-secondary);
 }
 
+
+/* stats */
+.stats{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    align-items: flex-end;
+}
 
 
 
