@@ -21,6 +21,7 @@ html{
 body{
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
+    background: var(--color-background);
 }
 
 /* bar graph */
@@ -77,10 +78,14 @@ body{
 .top-bar{
     display: flex;
     width: 100%;
+    max-width: 375px;
     justify-content: space-between;
     align-items: center;
     background: var(--color-orange);
     border-radius: 0.8rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -96,7 +101,7 @@ body{
 }
 .type{
     font-size: 1.2rem;
-    color: var(--color-secondary);
+    color: white;
 }
 .money{
     font-size: 2rem;
@@ -109,12 +114,27 @@ body{
     margin: 1rem;
 }
 
+@media screen and (min-width:768px){
+    .top-bar{
+        width: 425px;
+    }
+}
+
 /* end bar */
 .end-bar{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    max-width: 375px;
+    background: white;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
+.type--black{
+    color: var(--color-secondary);
+}
 
 .amount-end{
     color: black;
@@ -139,6 +159,12 @@ body{
     color: var(--color-secondary);
 }
 
+@media screen and (min-width:768px){
+    .end-bar{
+        width: 425px;
+    }
+}
+
 
 /* stats */
 .stats{
@@ -154,13 +180,41 @@ body{
     font-size: 2.2rem;
     font-weight: bold;
     margin-right: 4rem;
+    color: var(--color-secondary);
+    margin-bottom: 3rem;
 }
 
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: white;
+    border-bottom: 1px solid var(--color-background);
+    width:100%;
+    max-width: 375px;
+    border-radius: 0.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
 }
+
+@media screen and (min-width:768px){
+    .main{
+        width: 425px;
+    }
+}
+
+/* expense chart */
+.expense-chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+
+
+
 
 
 
