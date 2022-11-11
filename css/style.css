@@ -1,0 +1,87 @@
+/* color pallete */
+
+:root{
+    --color-orange:hsl(10,79%,65%);
+    --color-cyan:hsl(186,34%,60%);
+    --color-primary:hsl(25,47%,15%);
+    --color-secondary:hsl(28,10%,53%);
+    --color-background:hsl(27,66%,92%);
+}
+
+/* img */
+img{
+    width: 100%;
+}
+
+/* font */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+/* bar graph */
+
+.bar-graph{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-secondary);
+    max-width: 3.2rem;
+}
+
+.bar{
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+
+
+.bar--orange{
+    background: var(--color-orange);
+}
+.bar--cyan{
+    background: var(--color-cyan);
+}
+
+
+.bar-mon{
+    height: 3rem;
+}
+.bar-tue{
+    height: 6rem;
+}
+.bar-wed{
+    height: 9rem;
+}
+.bar-thu{
+    height: 5rem;
+}
+.bar-fri{
+    height: 4rem;
+}
+.bar-sat{
+    height: 8rem;
+}
+.bar-sun{
+    height: 4.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
