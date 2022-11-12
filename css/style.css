@@ -134,6 +134,7 @@ body{
 }
 
 .type--black{
+    font-size: 1.2rem;
     color: var(--color-secondary);
 }
 
@@ -237,6 +238,28 @@ body{
     opacity: 0.6;
     cursor: pointer;
     transition: all 0.1s;
+}
+
+/* logo */
+.logo-type{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.light-letter{
+    color: white;
+}
+.dark-letter{
+    color: black;
+}
+
+/* dark theme */
+.dark{
+    background: black;
+}
+.light{
+    background: white;
 }
 
 
